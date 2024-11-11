@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.conteiner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./background.png);
+    background-size: cover;
+    background-position: center;
+    padding: 0 7px;
+    color: #fff;
+}
+.navbar{
+    width: 100%;
+    padding: 20px 0;
+   display: flex;
+   align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+.navbaerIcon{
+  flex: 1;
+}
+.navbaerIcon li{
+    display: inline-block;
+    margin: 10px 20px;
+
+}
+.navbaerIcon li a{
+   color: #fff;
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: 500;
+   &:hover{
+      color: aqua;
+   }
+}
+.btn{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    font-weight: 600;
+    &:hover{
+        background: #5d42b8;
+        color: #0a0224;
+    }
+}
+
+.content{
+    margin-top: 12%;
+}
+.content h1{
+    font-size: 80px;
+    margin-bottom:  15px;
+}
+.content span{
+    color: #ff960b;
+}
+.content p{
+    line-height: 22PX;
+    font-size: 14PX;
+} 
+.btnX{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-top: 30px;
+    border: 2px solid #fff;
+    text-align: center;
+    padding: 14px;
+    border-radius: 20px;
+    font-weight: 600;
+    &:hover{
+        background: #ff960b;;
+        color: #0a0224;
+    }
+}
+.coin-list{
+    position: absolute;
+    right:10%;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+.coin{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 0 15px;
+    color: #ff960b;
+    padding: 20px 30px;
+    border: 1px solid #ff960b;
+    border-radius: 8px;
+}
+.coin img{
+    width: 40px;
+    margin-right: 10px;
+}
+.coin h3{
+    color: #fff;
+    margin-bottom: 6px;
+}
+/* .coin-list img{
+    width: 50px;
+}
+.coin-list, {
+    margin: 10px;
+    margin-top: 10px;
+    display: inline-block;
+} */
